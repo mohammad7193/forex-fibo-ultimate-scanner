@@ -20,4 +20,6 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
+          TELEGRAM_TOKEN_2: ${{ secrets.TELEGRAM_TOKEN_2 }}
+          CHAT_ID_2: ${{ secrets.CHAT_ID_2 }}
         run: python scanner.py
